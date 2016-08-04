@@ -574,6 +574,8 @@
     <string name="cancel">Cancel</string>
     <!-- Button label for generic OK action [CHAR LIMIT=20] -->
     <string name="okay">OK</string>
+    <!-- Button label for generic later action [CHAR LIMIT=20] -->
+    <string name="later">LATER</string>
     <!-- Button label for generic forget action [CHAR LIMIT=20] -->
     <string name="forget">Forget</string>
     <!-- Button label for generic save action [CHAR LIMIT=20] -->

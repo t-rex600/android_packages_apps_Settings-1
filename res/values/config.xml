@@ -84,4 +84,8 @@
     <!-- Display ro.product.name above Device model -->
     <bool name="config_displayDeviceName">false</bool>
 
+    <bool name="config_regional_hotspot_show_broadcast_ssid_checkbox">false</bool>
+    <bool name="config_regional_hotspot_show_maximum_connection_enable">false</bool>
+    <string-array translatable="false" name="carrier_operator_list"></string-array>
+
 </resources>
