@@ -84,6 +84,7 @@ import android.widget.Toast;
 
 import com.android.internal.app.LocalePicker;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
+import com.android.settings.Settings.AppOpsSummaryActivity;
 import com.android.settings.applications.BackgroundCheckSummary;
 import com.android.settings.fuelgauge.InactiveApps;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -205,6 +206,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
     private static final String INACTIVE_APPS_KEY = "inactive_apps";
 
+    private static final String ROOT_APPOPS_KEY = "root_appops";
+
     private static final String IMMEDIATELY_DESTROY_ACTIVITIES_KEY
             = "immediately_destroy_activities";
     private static final String APP_PROCESS_LIMIT_KEY = "app_process_limit";
@@ -309,6 +312,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private SwitchPreference mShowAllANRs;
 
     private ColorModePreference mColorModePreference;
+
+    private Preference mRootAppops;
 
     private SwitchPreference mForceResizable;
 
@@ -522,6 +527,9 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             removePreference(COLOR_TEMPERATURE_KEY);
             mColorTemperaturePreference = null;
         }
+
+        mRootAppops = (Preference) findPreference(ROOT_APPOPS_KEY);
+        mRootAppops.setOnPreferenceClickListener(this);
 
         mDevelopmentTools = (PreferenceScreen) findPreference(DEVELOPMENT_TOOLS);
         mAllPrefs.add(mDevelopmentTools);
@@ -1958,6 +1966,14 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 preference == mTransitionAnimationScale ||
                 preference == mAnimatorDurationScale) {
             ((AnimationScalePreference) preference).click();
+        }
+        if (preference == mRootAppops) {
+            Activity mActivity = getActivity();
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.putExtra("appops_tab", getString(R.string.app_ops_categories_su));
+            intent.setClass(mActivity, AppOpsSummaryActivity.class);
+            mActivity.startActivity(intent);
+            return true;
         }
         return false;
     }
