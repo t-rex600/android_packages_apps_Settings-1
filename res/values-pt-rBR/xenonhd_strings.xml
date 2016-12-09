@@ -44,4 +44,8 @@
   <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
   <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
   <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+  <!-- Randomize MAC addresses -->
+  <string name="randomize_mac_title">Aleatorizar endereço MAC</string>
+  <string name="tethering_no_sim_alert_title">Sem cartão SIM</string>
+  <!-- Volume Steps -->
 </resources>

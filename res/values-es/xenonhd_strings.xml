@@ -44,4 +44,11 @@
   <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
   <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
   <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+  <!-- Randomize MAC addresses -->
+  <string name="randomize_mac_title">Direcciones MAC aleatorias</string>
+  <string name="randomize_mac_summary">Asignar direcciones MAC al azar cuando se activan los dispositivos de red. MAC aleatoria se utiliza durante la escaneo, este o no habilitado.</string>
+  <string name="tethering_no_sim_alert_title">Falta la tarjeta SIM</string>
+  <string name="tether_settings_launch_title">Punto de acceso móvil</string>
+  <!-- Volume Steps -->
+  <string name="volume_steps_reset">Resetear</string>
 </resources>

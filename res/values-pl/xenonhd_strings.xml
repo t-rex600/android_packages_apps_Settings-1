@@ -44,4 +44,21 @@
   <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
   <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
   <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
+  <!-- Randomize MAC addresses -->
+  <string name="randomize_mac_title">Losowe adresy MAC</string>
+  <string name="randomize_mac_summary">Przypisuje losowe adresy MAC, gdy urządzenia sieciowe są włączone. Randomizacja MAC jest używana podczas skanowania, niezależnie od stanu przełącznika.</string>
+  <string name="tethering_no_sim_alert_title">Brak karty SIM</string>
+  <string name="tethering_no_sim_card_text">Proszę włożyć kartę SIM, aby udostępnić połączenie danych innym urządzeniom, za pomocą mobilnego punktu dostępu lub tetheringu przez USB.</string>
+  <string name="tether_settings_launch_title">Przenośny punkt dostępu</string>
+  <string name="wifi_tether_first_use_message">Skonfiguruj przenośny punk dostępu przy pierwszym użyciu</string>
+  <!-- Volume Steps -->
+  <string name="volume_steps_title">Poziomy głośności</string>
+  <string name="volume_steps_alarm_title">Alarm</string>
+  <string name="volume_steps_dtmf_title">DTMF</string>
+  <string name="volume_steps_music_title">Muzyka</string>
+  <string name="volume_steps_notification_title">Powiadomienia</string>
+  <string name="volume_steps_ring_title">Dzwonek</string>
+  <string name="volume_steps_system_title">System</string>
+  <string name="volume_steps_voice_call_title">Rozmowa</string>
+  <string name="volume_steps_reset">Resetuj</string>
 </resources>
