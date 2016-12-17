@@ -61,4 +61,11 @@
   <string name="volume_steps_system_title">Уровни громкости: Система</string>
   <string name="volume_steps_voice_call_title">Уровни громкости: Голосовой вызов</string>
   <string name="volume_steps_reset">Сброс</string>
+  <!-- DayNight Theme -->
+  <string name="night_mode_title">Тема</string>
+  <string name="night_mode_no">Светлая</string>
+  <string name="night_mode_yes">Тёмная</string>
+  <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Звук скриншота</string>
+  <string name="screenshot_sound_summary">Проигрывать звук при скриншоте</string>
 </resources>

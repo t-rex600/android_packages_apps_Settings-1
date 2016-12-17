@@ -48,4 +48,6 @@
   <string name="randomize_mac_title">Aleatorizar endereço MAC</string>
   <string name="tethering_no_sim_alert_title">Sem cartão SIM</string>
   <!-- Volume Steps -->
+  <!-- DayNight Theme -->
+  <!-- Screenshot sound -->
 </resources>

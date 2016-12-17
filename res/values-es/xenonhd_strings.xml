@@ -50,5 +50,15 @@
   <string name="tethering_no_sim_alert_title">Falta la tarjeta SIM</string>
   <string name="tether_settings_launch_title">Punto de acceso móvil</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Niveles de volumen</string>
+  <string name="volume_steps_alarm_title">Nivel de volumen: Alarma</string>
+  <string name="volume_steps_dtmf_title">Nivel de volumen: DTMF</string>
+  <string name="volume_steps_music_title">Nivel de volumen: Música</string>
+  <string name="volume_steps_notification_title">Nivel de volumen: Notificaciones</string>
+  <string name="volume_steps_ring_title">Nivel de volumen: Tono</string>
+  <string name="volume_steps_system_title">Nivel de volumen: Sistema</string>
+  <string name="volume_steps_voice_call_title">Nivel de volumen: Llamada</string>
   <string name="volume_steps_reset">Resetear</string>
+  <!-- DayNight Theme -->
+  <!-- Screenshot sound -->
 </resources>
