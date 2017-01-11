@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">Version XenonHD</string>
+  <string name="xenonhd_version">Version de XenonHD</string>
   <string name="xenonhd_version_default">Inconnu</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Note de version</string>
@@ -23,12 +23,12 @@
   <!-- Density category -->
   <string name="density_category">Options de densité</string>
   <!-- XenonOTA -->
-  <string name="xenonota_title">Mises à jour XenonHD</string>
+  <string name="xenonota_title">Mises à jour de XenonHD</string>
   <string name="xenonota_summary">Rechercher les mises à jour de ROM</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Inutile, les options de développement sont activées par défaut.</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Infos téléphone</string>
+  <string name="device_info_title">Informations sur l\'appareil</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Mot de passe de sauvegarde bureau</string>
   <!-- Double tap to sleep on lockscreen -->
@@ -52,21 +52,40 @@
   <string name="tether_settings_launch_title">Point d’accès mobile</string>
   <string name="wifi_tether_first_use_message">Mettre en place un hotspot mobile lors de la première utilisation</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">Incrémentation du volume</string>
+  <string name="volume_steps_title">Niveaux du volume</string>
   <string name="volume_steps_alarm_title">Niveaux du volume: Alarme</string>
-  <string name="volume_steps_dtmf_title">Incrémentation du volume: DTMF</string>
-  <string name="volume_steps_music_title">Incrémentation du volume: Musique</string>
-  <string name="volume_steps_notification_title">Incrémentation du volume: Notifcation</string>
-  <string name="volume_steps_ring_title">Incrémentation du volume: Sonnerie</string>
-  <string name="volume_steps_system_title">Incrémentation du volume: Système</string>
-  <string name="volume_steps_voice_call_title">Incrémentation du volume: Appel Vocal</string>
+  <string name="volume_steps_dtmf_title">Niveaux du volume: DTMF</string>
+  <string name="volume_steps_music_title">Niveaux du volume: Musique</string>
+  <string name="volume_steps_notification_title">Niveaux du volume: Notifcation</string>
+  <string name="volume_steps_ring_title">Niveaux du volume: Sonnerie</string>
+  <string name="volume_steps_system_title">Niveaux du volume: Système</string>
+  <string name="volume_steps_voice_call_title">Niveaux du volume: Appel Vocal</string>
   <string name="volume_steps_reset">Remise à zéro</string>
   <!-- DayNight Theme -->
   <string name="night_mode_title">Thème</string>
   <string name="night_mode_no">Clair</string>
   <string name="night_mode_yes">Sombre</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Capture d\'écran supprimée</string>
+  <string name="screenshot_sound_title">Son de capture d\'écran</string>
   <string name="screenshot_sound_summary">Émettre un son lors de la capture d\'écran</string>
-
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Surcouches Substratum</string>
+  <string name="menu_show_substratum">Afficher les surcouches</string>
+  <string name="menu_hide_substratum">Masquer les surcouches</string>
+  <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Icône surcouches Substratum</string>
+  <string name="menu_show_substratum_icons">Afficher les icônes de surcouches</string>
+  <string name="menu_hide_substratum_icons">Masquer les icônes de surcouches</string>
+  <!-- XenonHD Configurations-->
+  <string name="xenonhd_title">Configurations</string>
+  <string name="xenonhd_misc_title">Réglages divers</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Option de changement d\'état de Selinux</string>
+  <string name="selinux_switch_summary">SELinux est un ensemble de modifications du noyau et d\'outils espace utilisateur. Le changement de mode peut provoquer des effets indésirables. Utiliser à vos risques et périls</string>
+  <string name="selinux_title">Mode de Selinux</string>
+  <string name="selinux_permissive_title">Permissif</string>
+  <string name="selinux_enforcing_title">Appliqué</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Afficher la barre de mémoire</string>
+  <string name="systemui_recents_mem_display_summary">Afficher la barre de RAM libre dans le multitâche</string>
 </resources>

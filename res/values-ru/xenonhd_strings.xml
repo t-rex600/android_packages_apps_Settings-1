@@ -68,4 +68,24 @@
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Звук скриншота</string>
   <string name="screenshot_sound_summary">Проигрывать звук при скриншоте</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Слои Substratum</string>
+  <string name="menu_show_substratum">Показывать слои</string>
+  <string name="menu_hide_substratum">Скрыть слои</string>
+  <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Слои Substratum для значков</string>
+  <string name="menu_show_substratum_icons">Показывать слои для значков</string>
+  <string name="menu_hide_substratum_icons">Скрыть слои для значков</string>
+  <!-- XenonHD Configurations-->
+  <string name="xenonhd_title">Расширенные настройки</string>
+  <string name="xenonhd_misc_title">Разное</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Параметры переключателя SELinux</string>
+  <string name="selinux_switch_summary">SELinux - это набор модификаций ядра и инструментов пользовательского пространства. Изменение режимов может привести к нежелательным последствиям. Используйте на свой риск</string>
+  <string name="selinux_title">Режим SELinux</string>
+  <string name="selinux_permissive_title">Только предупреждение</string>
+  <string name="selinux_enforcing_title">Блокировка</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Показывать панель использования ОЗУ</string>
+  <string name="systemui_recents_mem_display_summary">Показывать панель свободной ОЗУ в меню недавних приложений</string>
 </resources>

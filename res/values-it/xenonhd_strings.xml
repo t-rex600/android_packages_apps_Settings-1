@@ -68,4 +68,25 @@
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Suono screenshot</string>
   <string name="screenshot_sound_summary">Riproduci suono quando si effettua uno screenshot</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Overlay di Substratum</string>
+  <string name="menu_show_substratum">Mostra overlay</string>
+  <string name="menu_hide_substratum">Nascondi overlay</string>
+  <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Icona overlay di Substratum</string>
+  <string name="menu_show_substratum_icons">Mostra icone overlay</string>
+  <string name="menu_hide_substratum_icons">Nascondi icone overlay</string>
+  <!-- XenonHD Configurations-->
+  <string name="xenonhd_title">Configurazioni</string>
+  <string name="xenonhd_misc_title">Varie</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Opzioni cambio Selinux</string>
+  <string name="selinux_switch_summary">SELinux è un insieme di modifiche del kernel. La modifica della modalità può causare effetti indesiderati. Utilizzare a proprio rischio</string>
+  <string name="selinux_title">Modalità Selinux</string>
+  <string name="selinux_permissive_title">Permissive</string>
+  <string name="selinux_enforcing_title">Enforcing</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Mostra utilizzo memoria</string>
+  <string name="systemui_recents_mem_display_summary">Mostra la RAM disponibile nelle app recenti</string>
+
 </resources>

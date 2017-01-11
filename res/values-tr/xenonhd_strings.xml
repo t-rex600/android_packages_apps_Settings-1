@@ -14,10 +14,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">XenonHD Versiyon</string>
+  <string name="xenonhd_version">XenonHD Versiyonu</string>
   <string name="xenonhd_version_default">Bilinmeyen</string>
   <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Değişikliklers</string>
+  <string name="changelog_xenonhd_title">Değişiklikler</string>
   <string name="changelog_xenonhd_error">Değişiklik kaydı yüklenemedi</string>
   <string name="changelog_xenonhd_summary">Değişiklikleri Kontrol Et Ve Geçerli Yap</string>
   <!-- Density category -->
@@ -32,9 +32,60 @@
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Masaüstü Şifresini Yedekle</string>
   <!-- Double tap to sleep on lockscreen -->
+  <string name="double_tap_sleep_anywhere_title">Kilit ekranında DT2S</string>
+  <string name="double_tap_sleep_anywhere_summary">Kilit ekranında herhangi bir yere iki kez dokunarak cihazı uyku moduna alabilirsiniz</string>
   <!-- Notification sound timeout -->
+  <string name="app_notification_sound_timeout_title">Bildirim sesleri arasında en az zaman</string>
+  <string name="app_notification_sound_timeout_summary_template">Bir defadan fazla olmayacak şekilde her <xliff:g id="duration">%1$s</xliff:g>\'da bir titreme veya sese izin ver</string>
+  <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>
+  <string name="app_notification_sound_timeout_value_10_seconds">10 Saniye</string>
+  <string name="app_notification_sound_timeout_value_30_seconds">30 Saniye</string>
+  <string name="app_notification_sound_timeout_value_1_minute">1 Dakika</string>
+  <string name="app_notification_sound_timeout_value_5_minutes">5 Dakika</string>
+  <string name="app_notification_sound_timeout_value_15_minutes">10 Dakika</string>
+  <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
   <!-- Randomize MAC addresses -->
+  <string name="randomize_mac_title">Rastgele MAC adresleri</string>
+  <string name="randomize_mac_summary">Cihaz bağlantısı sağlandığında rastgele MAC adresi ata. Rastgele MAC adresi ataması tarama aktif olsa da olmasa da yapılacaktır.</string>
+  <string name="tethering_no_sim_alert_title">SIM kart yok</string>
+  <string name="tethering_no_sim_card_text">Lütfen diğer cihazlarla USB ile ya da kablosuz ağ paylaşımı yapmak için SIM kartınızı takın.</string>
+  <string name="tether_settings_launch_title">Kablosuz Ağ Paylaşımı</string>
+  <string name="wifi_tether_first_use_message">İlk kullanım için Ağ paylaşımını kurun</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Ses Seviyeleri</string>
+  <string name="volume_steps_alarm_title">Alarm ses seviyes</string>
+  <string name="volume_steps_dtmf_title">DTMF ses seviyesi</string>
+  <string name="volume_steps_music_title">Müzik ses seviyesi</string>
+  <string name="volume_steps_notification_title">Bildirim Ses Seviyesi</string>
+  <string name="volume_steps_ring_title">Zil Sesi Seviyesi</string>
+  <string name="volume_steps_system_title">Sistem Ses Seviyesi</string>
+  <string name="volume_steps_voice_call_title">Konuşma Ses Seviyesi</string>
+  <string name="volume_steps_reset">Sıfırla</string>
   <!-- DayNight Theme -->
+  <string name="night_mode_title">Tema</string>
+  <string name="night_mode_no">Parlak</string>
+  <string name="night_mode_yes">Koyu</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Ekran Görüntüsü Sesi</string>
+  <string name="screenshot_sound_summary">Ekran görüntüsü alındığında bildirim çal</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum bindirmeleri</string>
+  <string name="menu_show_substratum">Bindirmeleri göster</string>
+  <string name="menu_hide_substratum">Bindirmeleri gizle</string>
+  <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Substratum simge bindirmeleri</string>
+  <string name="menu_show_substratum_icons">Simge bindirmelerini göster</string>
+  <string name="menu_hide_substratum_icons">Simge bindirmelerini gizle</string>
+  <!-- XenonHD Configurations-->
+  <string name="xenonhd_title">Yapılandır</string>
+  <string name="xenonhd_misc_title">Çeşitler</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Selinux\'a geçme ayarları</string>
+  <string name="selinux_switch_summary">SELinux kernel modifikasyonları içerir. Bu ayarları değiştirmek istenmeyen sonuçlara yol açabilir. Sorumluluk size aittir</string>
+  <string name="selinux_title">SELinux modu</string>
+  <string name="selinux_permissive_title">İzinler</string>
+  <string name="selinux_enforcing_title">Zorunlu</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Bellek çubuğunu göster</string>
+  <string name="systemui_recents_mem_display_summary">Son uygulamalar ekranında boşta RAM miktarını göster</string>
 </resources>

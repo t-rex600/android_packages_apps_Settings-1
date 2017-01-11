@@ -68,4 +68,24 @@
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Bildschirmfoto-Ton</string>
   <string name="screenshot_sound_summary">Spielt einen Ton ab, wenn ein Screenshot aufgenommen wird</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum Overlays</string>
+  <string name="menu_show_substratum">Overlays anzeigen</string>
+  <string name="menu_hide_substratum">Overlays verstecken</string>
+  <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Substratum Icon-Overlays</string>
+  <string name="menu_show_substratum_icons">Nur Symbole anzeigen</string>
+  <string name="menu_hide_substratum_icons">Nur Symbole ausblenden</string>
+  <!-- XenonHD Configurations-->
+  <string name="xenonhd_title">Konfigurationen</string>
+  <string name="xenonhd_misc_title">Verschiedenes</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">SELinux Wechsel-Optionen</string>
+  <string name="selinux_switch_summary">SELinux ist eine Sammlung von Kernel-Modifikationstools und Sicherheitsrichtlinien. Das Ändern dieser Einstellung kann ungewünschte Ereignisse hervorrufen. Benutzung auf eigene Gefahr!</string>
+  <string name="selinux_title">SELinux-Modus</string>
+  <string name="selinux_permissive_title">Moderat</string>
+  <string name="selinux_enforcing_title">Strikt</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Arbeitsspeicher anzeigen</string>
+  <string name="systemui_recents_mem_display_summary">Freier RAM-Speicher in den letzten Apps Ansicht anzeigen</string>
 </resources>

@@ -68,4 +68,24 @@
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
   <string name="screenshot_sound_summary">Efekt dźwiękowy podczas zrzutu ekranu</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Nakładki substratum</string>
+  <string name="menu_show_substratum">Pokaż nakładki</string>
+  <string name="menu_hide_substratum">Ukryj nakładki</string>
+  <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Nakładki ikon substratum</string>
+  <string name="menu_show_substratum_icons">Pokaż nakładki ikon</string>
+  <string name="menu_hide_substratum_icons">Ukryj nakładki ikon</string>
+  <!-- XenonHD Configurations-->
+  <string name="xenonhd_title">Konfiguracje</string>
+  <string name="xenonhd_misc_title">Różne</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Opcje przełącznika SELinux</string>
+  <string name="selinux_switch_summary">SELinux to zestaw modyfikacji jądra i narzędzi przestrzeni użytkownika. Zmiana trybu może spowodować niepożądane działania. Używasz tylko na własne ryzyko.</string>
+  <string name="selinux_title">Tryb SELinux</string>
+  <string name="selinux_permissive_title">Pobłażliwy</string>
+  <string name="selinux_enforcing_title">Restrykcyjny</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Pokaż użycie pamięci</string>
+  <string name="systemui_recents_mem_display_summary">Pokaż ilość wolnej pamięci RAM na ekranie ostatnich aplikacji</string>
 </resources>

@@ -68,4 +68,24 @@
   <!-- Screenshot sound -->
   <string name="screenshot_sound_title">螢幕擷取音效</string>
   <string name="screenshot_sound_summary">擷取螢幕畫面時播放音效</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">底層覆蓋</string>
+  <string name="menu_show_substratum">顯示覆蓋</string>
+  <string name="menu_hide_substratum">隱藏覆蓋</string>
+  <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">底層圖示覆蓋</string>
+  <string name="menu_show_substratum_icons">顯示圖示覆蓋</string>
+  <string name="menu_hide_substratum_icons">隱藏圖示覆蓋</string>
+  <!-- XenonHD Configurations-->
+  <string name="xenonhd_title">配置</string>
+  <string name="xenonhd_misc_title">其他事項</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Selinux 切換選項</string>
+  <string name="selinux_switch_summary">SELinux 是修改內核和使用者空間的工具。更改模式會導致不必要的影響。使用時自擔風險</string>
+  <string name="selinux_title">Selinux 模式</string>
+  <string name="selinux_permissive_title">許可</string>
+  <string name="selinux_enforcing_title">執行中</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">顯示記憶體列</string>
+  <string name="systemui_recents_mem_display_summary">在最近的應用程式中顯示可用記憶體列</string>
 </resources>

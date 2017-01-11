@@ -14,16 +14,79 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
+  <string name="xenonhd_version">Verze XenonHD</string>
+  <string name="xenonhd_version_default">Neznámá</string>
   <!-- Changelog -->
+  <string name="changelog_xenonhd_title">Protokol změn</string>
+  <string name="changelog_xenonhd_error">Chyba při načítání seznamu změn</string>
+  <string name="changelog_xenonhd_summary">Zkontrolujte změny v aktuálním sestavení</string>
   <!-- Density category -->
+  <string name="density_category">Možnosti hustoty zobrazení</string>
   <!-- XenonOTA -->
+  <string name="xenonota_title">Aktualizace XenonHD</string>
+  <string name="xenonota_summary">Zkontrolovat aktualizace ROM</string>
   <!-- Dev Options Enabled by Default -->
+  <string name="show_dev_already_enabled">Není třeba, možnosti vývojáře jsou ve výchozím nastavení povolena.</string>
   <!-- Phone info shortcut -->
+  <string name="device_info_title">Informace o telefonu</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+  <string name="local_backup_password_title">Heslo pro zálohy v počítači</string>
   <!-- Double tap to sleep on lockscreen -->
+  <string name="double_tap_sleep_anywhere_title">Dvojí poklepání na uzamčenou obrazovku</string>
+  <string name="double_tap_sleep_anywhere_summary">Dvojitým poklepáním na zamykací obrazovku uvést zařízení do režimu spánku</string>
   <!-- Notification sound timeout -->
+  <string name="app_notification_sound_timeout_title">Minimální doba mezi zvuky upozornění</string>
+  <string name="app_notification_sound_timeout_summary_template">Povolit zvuky nebo vibrace ne více než jednou každých <xliff:g id="duration">%1$s </xliff:g></string>
+  <string name="app_notification_sound_timeout_value_none">Bez omezení</string>
+  <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+  <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+  <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+  <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+  <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
+  <string name="app_notification_sound_timeout_value_30_minutes">30 Minut</string>
   <!-- Randomize MAC addresses -->
+  <string name="randomize_mac_title">Náhodné adresy MAC</string>
+  <string name="randomize_mac_summary">Přiřadí náhodné MAC adresy, pokud jsou síťová zařízení zapnuta. Randomizace MAC je použita během kontroly, bez ohledu na povolení.</string>
+  <string name="tethering_no_sim_alert_title">Není vložena SIM karta</string>
+  <string name="tethering_no_sim_card_text">Prosím vložte SIM kartu a sdílejte datové připojení s dalšími zařízeními pomocí mobilního přístupového bodu nebo USB tethering.</string>
+  <string name="tether_settings_launch_title">Mobilní hotspoty</string>
+  <string name="wifi_tether_first_use_message">Nastavení mobilního hotspotu při prvním použití</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Kroky hlasitosti</string>
+  <string name="volume_steps_alarm_title">Kroky hlasitosti: Budík</string>
+  <string name="volume_steps_dtmf_title">Kroky hlasitosti: DTMF</string>
+  <string name="volume_steps_music_title">Kroky hlasitosti: Hudba</string>
+  <string name="volume_steps_notification_title">Kroky hlasitosti: Upozornění</string>
+  <string name="volume_steps_ring_title">Kroky hlasitosti: Vyzvánění</string>
+  <string name="volume_steps_system_title">Kroky hlasitosti: Systém</string>
+  <string name="volume_steps_voice_call_title">Kroky hlasitosti: Hlasové hovory</string>
+  <string name="volume_steps_reset">Resetovat</string>
   <!-- DayNight Theme -->
+  <string name="night_mode_title">Téma</string>
+  <string name="night_mode_no">Světlé</string>
+  <string name="night_mode_yes">Tmavé</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
+  <string name="screenshot_sound_summary">Přehraje zvukový efekt při snímku obrazovky</string>
+  <!-- Manage applications: show substratum overlays -->
+  <string name="filter_substratum_apps">Substratum překrytí</string>
+  <string name="menu_show_substratum">Zobrazit překrytí</string>
+  <string name="menu_hide_substratum">Skrýt překrytí</string>
+  <!-- Manage applications: show substratum icon overlays -->
+  <string name="filter_substratum_icons">Ikona Substratum překrytí</string>
+  <string name="menu_show_substratum_icons">Zobrazit ikonu překrytí</string>
+  <string name="menu_hide_substratum_icons">Skrýt ikonu překrytí</string>
+  <!-- XenonHD Configurations-->
+  <string name="xenonhd_title">Nastavení</string>
+  <string name="xenonhd_misc_title">Různé</string>
+  <!-- Selinux Switch -->
+  <string name="selinux_switch_title">Možnosti přepínače SELinux</string>
+  <string name="selinux_switch_summary">SELinux je soubor změn na linuxovém jádře a způsob přidělování zdrojů pro danou aplikaci. Změna režimu může způsobit nežádoucí chování. Použití je na vlastní nebezpečí</string>
+  <string name="selinux_title">Selinux režim</string>
+  <string name="selinux_permissive_title">Mírné</string>
+  <string name="selinux_enforcing_title">Vynucené</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Zobrazit ukazatel paměti</string>
+  <string name="systemui_recents_mem_display_summary">Zobrazit ukazatel volné RAM v zobrazení nedávných aplikací</string>
+
 </resources>

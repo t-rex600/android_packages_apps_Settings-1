@@ -48,7 +48,9 @@
   <string name="randomize_mac_title">Direcciones MAC aleatorias</string>
   <string name="randomize_mac_summary">Asignar direcciones MAC al azar cuando se activan los dispositivos de red. MAC aleatoria se utiliza durante la escaneo, este o no habilitado.</string>
   <string name="tethering_no_sim_alert_title">Falta la tarjeta SIM</string>
+  <string name="tethering_no_sim_card_text">Por favor instale la tarjeta SIM para compartir su conexión a internet con otros dispositivos usando el punto de acceso o la conexión USB.</string>
   <string name="tether_settings_launch_title">Punto de acceso móvil</string>
+  <string name="wifi_tether_first_use_message">Configurar punto de acceso móvil en el primer uso</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Niveles de volumen</string>
   <string name="volume_steps_alarm_title">Nivel de volumen: Alarma</string>
@@ -60,5 +62,15 @@
   <string name="volume_steps_voice_call_title">Nivel de volumen: Llamada</string>
   <string name="volume_steps_reset">Resetear</string>
   <!-- DayNight Theme -->
+  <string name="night_mode_title">Tema</string>
+  <string name="night_mode_no">Claro</string>
+  <string name="night_mode_yes">Oscuro</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
+  <string name="screenshot_sound_summary">Reproducir sonido cuando se hace una captura de pantalla</string>
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Manage applications: show substratum icon overlays -->
+  <!-- XenonHD Configurations-->
+  <!-- Selinux Switch -->
+  <!-- Recents Membar -->
 </resources>

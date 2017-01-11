@@ -46,8 +46,31 @@
   <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
   <!-- Randomize MAC addresses -->
   <string name="randomize_mac_title">Aleatorizar endereço MAC</string>
+  <string name="randomize_mac_summary">Atribua endereços MAC aleatórios quando dispositivos de rede estão habilitados. Randomização de MAC é usada durante a verificação ou não essa opção estiver habilitada.</string>
   <string name="tethering_no_sim_alert_title">Sem cartão SIM</string>
+  <string name="tethering_no_sim_card_text">Por favor instale o cartão SIM para compartilhar sua conexão de dados com outros dispositivos usando o Hotspot portátil ou o Vínculo USB.</string>
+  <string name="tether_settings_launch_title">HotSpot móvel</string>
+  <string name="wifi_tether_first_use_message">Configurar o hotspot móvel para a primeira utilização</string>
   <!-- Volume Steps -->
+  <string name="volume_steps_title">Níveis de volume</string>
+  <string name="volume_steps_alarm_title">Níveis de volume: Alarme</string>
+  <string name="volume_steps_dtmf_title">Níveis de volume: DTMF</string>
+  <string name="volume_steps_music_title">Níveis de volume: Música</string>
+  <string name="volume_steps_notification_title">Níveis de volume: Notificação</string>
+  <string name="volume_steps_ring_title">Níveis de volume: Toque</string>
+  <string name="volume_steps_system_title">Níveis de volume: Sistema</string>
+  <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de Voz</string>
+  <string name="volume_steps_reset">Redefinir</string>
   <!-- DayNight Theme -->
+  <string name="night_mode_title"> Tema</string>
+  <string name="night_mode_no">Claro</string>
+  <string name="night_mode_yes">Escuro</string>
   <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Som de captura de tela</string>
+  <string name="screenshot_sound_summary">Tocar efeito de som ao capturar tela</string>
+  <!-- Manage applications: show substratum overlays -->
+  <!-- Manage applications: show substratum icon overlays -->
+  <!-- XenonHD Configurations-->
+  <!-- Selinux Switch -->
+  <!-- Recents Membar -->
 </resources>
