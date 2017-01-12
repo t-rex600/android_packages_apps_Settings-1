@@ -69,6 +69,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_MBN_VERSION = "mbn_version";
     private static final String PROPERTY_MBN_VERSION = "persist.mbn.version";
     private static final String KEY_XENONHD_VERSION = "xenonhd_version";
+    private static final String KEY_XENONHD_MAINTAINER = "xenonhd_maintainer";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
     private static final String KEY_QGP_VERSION = "qgp_version";
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
@@ -129,6 +130,14 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 PROPERTY_MBN_VERSION);
         setValueSummary(KEY_XENONHD_VERSION, "ro.xenonhd.version");
         findPreference(KEY_XENONHD_VERSION).setEnabled(true);
+        setValueSummary(KEY_XENONHD_MAINTAINER, "ro.xenonhd.maintainer");
+        findPreference(KEY_XENONHD_MAINTAINER).setEnabled(true);
+
+        String buildtype = SystemProperties.get("ro.xenonhd.version","Unofficial");
+            if (buildtype.equalsIgnoreCase("Unofficial")) {
+                removePreference(KEY_XENONHD_MAINTAINER);
+        }
+
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
 
         if (!SELinux.isSELinuxEnabled()) {
