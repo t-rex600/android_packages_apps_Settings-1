@@ -14,8 +14,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">XenonHD versie</string>
   <string name="xenonhd_version_default">Onbekend</string>
+  <string name="xenonhd_maintainer_default">Onbekend</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Changelog</string>
   <string name="changelog_xenonhd_error">Kan changelog niet laden</string>
@@ -26,7 +26,6 @@
   <string name="xenonota_title">XenonHD Updates</string>
   <string name="xenonota_summary">Controleren op ROM updates</string>
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Niet nodig, Ontwikkelaars-instellingen staan standaard aan.</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Telefoon info</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -46,20 +45,12 @@
   <string name="app_notification_sound_timeout_value_30_minutes">0,5 uur</string>
   <!-- Randomize MAC addresses -->
   <string name="randomize_mac_title">Randomize MAC-adressen</string>
-  <string name="randomize_mac_summary">Willekeurige MAC adressen toewijzen wanneer netwerkapparaten zijn ingeschakeld. MAC randomisatie wordt gebruikt tijdens het scannen of dit wel of niet is ingeschakeld.</string>
   <string name="tethering_no_sim_alert_title">Geen simkaart</string>
-  <string name="tethering_no_sim_card_text">Gelieve SIM-kaart te installeren om de verbinding van uw gegevens delen met andere apparaten met behulp van de mobiele hotspot of USB tethering voor internettoegang.</string>
   <string name="tether_settings_launch_title">Mobiele Hotspot</string>
   <string name="wifi_tether_first_use_message">Stel mobiel hotspot in, bij het eerste gebruik</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Volume stappen</string>
-  <string name="volume_steps_alarm_title">Volume stappen: Alarm</string>
-  <string name="volume_steps_dtmf_title">Volume stappen: DTMF</string>
-  <string name="volume_steps_music_title">Volume stappen: Muziek</string>
-  <string name="volume_steps_notification_title">Volume stappen: Melding</string>
-  <string name="volume_steps_ring_title">Volume stappen: Ringer</string>
-  <string name="volume_steps_system_title">Volume stappen: Systeem</string>
-  <string name="volume_steps_voice_call_title">Volume stappen: Bellen</string>
+  <string name="volume_steps_music_title">Muziek</string>
   <string name="volume_steps_reset">Reset</string>
   <!-- DayNight Theme -->
   <string name="night_mode_title">Thema</string>
@@ -73,4 +64,16 @@
   <!-- XenonHD Configurations-->
   <!-- Selinux Switch -->
   <!-- Recents Membar -->
+  <!-- Quick settings tiles columns and rows config -->
+  <!-- Media art -->
+  <!-- Quick unlock -->
+  <!-- Three-fingers-swipe to screenshot -->
+  <!-- Long press back to kill configurable timeout -->
+  <!-- Doze pulse options -->
+  <string name="summary_doze_enabled">Ingeschakeld</string>
+  <string name="summary_doze_disabled">Uitgeschakeld</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <!-- Recents panel settings -->
 </resources>

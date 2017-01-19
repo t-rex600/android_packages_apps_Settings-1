@@ -14,7 +14,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">XenonHD verzió</string>
   <string name="xenonhd_version_default">Ismeretlen</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Változásnapló</string>
@@ -26,7 +25,6 @@
   <string name="xenonota_title">XenonHD frissítések</string>
   <string name="xenonota_summary">ROM frissítések ellenőrzése</string>
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Nem szükséges, a fejlesztői beállítások engedélyezve vannak.</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Telefon adatai</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -43,18 +41,11 @@
   <!-- Randomize MAC addresses -->
   <string name="randomize_mac_title">Véletlenszerű MAC-címek</string>
   <string name="tethering_no_sim_alert_title">Nincs SIM kártya</string>
-  <string name="tethering_no_sim_card_text">Kérjük helyezze be a SIM kártyát annak érdekében, hogy adatkapcsolatát megoszthassa más eszközökkel mobil hotspot vagy USB-s internetmegosztás segítségével.</string>
   <string name="tether_settings_launch_title">Mobil Hotspot</string>
   <string name="wifi_tether_first_use_message">Mobil hotspot beállítása első használatánál</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Hangerő lépések</string>
-  <string name="volume_steps_alarm_title">Hangerő lépések: Ébresztő</string>
-  <string name="volume_steps_dtmf_title">Hangerő lépések: DTMF</string>
-  <string name="volume_steps_music_title">Hangerő lépések: Zene</string>
-  <string name="volume_steps_notification_title">Hangerő lépések: Értesítés</string>
-  <string name="volume_steps_ring_title">Hangerő lépések: Csengés</string>
-  <string name="volume_steps_system_title">Hangerő lépések: Rendszer</string>
-  <string name="volume_steps_voice_call_title">Hangerő lépések: Hanghívás</string>
+  <string name="volume_steps_music_title">Zene</string>
   <string name="volume_steps_reset">Visszaállitás</string>
   <!-- DayNight Theme -->
   <string name="night_mode_title">Téma</string>
@@ -67,10 +58,21 @@
   <!-- XenonHD Configurations-->
   <string name="xenonhd_title">Konfigurációk</string>
   <!-- Selinux Switch -->
-  <string name="selinux_title">Selinux mód</string>
   <string name="selinux_permissive_title">Engedélyező</string>
   <string name="selinux_enforcing_title">Kényszerítés</string>
   <!-- Recents Membar -->
   <string name="systemui_recents_mem_display_title">Memória sáv megjelenítése</string>
   <string name="systemui_recents_mem_display_summary">Szabad RAM sáv megjelenítése a legújabb alkalmazások nézetben</string>
+  <!-- Quick settings tiles columns and rows config -->
+  <!-- Media art -->
+  <!-- Quick unlock -->
+  <!-- Three-fingers-swipe to screenshot -->
+  <!-- Long press back to kill configurable timeout -->
+  <!-- Doze pulse options -->
+  <string name="summary_doze_enabled">Engedélyezve</string>
+  <string name="summary_doze_disabled">Kikapcsolva</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <!-- Recents panel settings -->
 </resources>

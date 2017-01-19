@@ -16,6 +16,8 @@
   <!-- About phone screen, XenonHD version -->
   <string name="xenonhd_version">Verze XenonHD</string>
   <string name="xenonhd_version_default">Neznámá</string>
+  <string name="xenonhd_maintainer">Správce</string>
+  <string name="xenonhd_maintainer_default">Neznámá</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Protokol změn</string>
   <string name="changelog_xenonhd_error">Chyba při načítání seznamu změn</string>
@@ -26,7 +28,7 @@
   <string name="xenonota_title">Aktualizace XenonHD</string>
   <string name="xenonota_summary">Zkontrolovat aktualizace ROM</string>
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Není třeba, možnosti vývojáře jsou ve výchozím nastavení povolena.</string>
+  <string name="show_dev_already_enabled">Není třeba, možnosti vývojáře jsou ve výchozím nastavení povolena</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Informace o telefonu</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -46,20 +48,20 @@
   <string name="app_notification_sound_timeout_value_30_minutes">30 Minut</string>
   <!-- Randomize MAC addresses -->
   <string name="randomize_mac_title">Náhodné adresy MAC</string>
-  <string name="randomize_mac_summary">Přiřadí náhodné MAC adresy, pokud jsou síťová zařízení zapnuta. Randomizace MAC je použita během kontroly, bez ohledu na povolení.</string>
+  <string name="randomize_mac_summary">Přiřadí náhodné MAC adresy, pokud jsou síťová zařízení zapnuta. Randomizace MAC je použita během kontroly, bez ohledu na povolení</string>
   <string name="tethering_no_sim_alert_title">Není vložena SIM karta</string>
-  <string name="tethering_no_sim_card_text">Prosím vložte SIM kartu a sdílejte datové připojení s dalšími zařízeními pomocí mobilního přístupového bodu nebo USB tethering.</string>
+  <string name="tethering_no_sim_card_text">Prosím vložte SIM kartu a sdílejte datové připojení s dalšími zařízeními pomocí mobilního přístupového bodu nebo USB tethering</string>
   <string name="tether_settings_launch_title">Mobilní hotspoty</string>
   <string name="wifi_tether_first_use_message">Nastavení mobilního hotspotu při prvním použití</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Kroky hlasitosti</string>
-  <string name="volume_steps_alarm_title">Kroky hlasitosti: Budík</string>
-  <string name="volume_steps_dtmf_title">Kroky hlasitosti: DTMF</string>
-  <string name="volume_steps_music_title">Kroky hlasitosti: Hudba</string>
-  <string name="volume_steps_notification_title">Kroky hlasitosti: Upozornění</string>
-  <string name="volume_steps_ring_title">Kroky hlasitosti: Vyzvánění</string>
-  <string name="volume_steps_system_title">Kroky hlasitosti: Systém</string>
-  <string name="volume_steps_voice_call_title">Kroky hlasitosti: Hlasové hovory</string>
+  <string name="volume_steps_alarm_title">Budík</string>
+  <string name="volume_steps_dtmf_title">DTMF (volání)</string>
+  <string name="volume_steps_music_title">Hudba</string>
+  <string name="volume_steps_notification_title">Upozornění</string>
+  <string name="volume_steps_ring_title">Vyzvánení</string>
+  <string name="volume_steps_system_title">Systém</string>
+  <string name="volume_steps_voice_call_title">Hlasový hovor</string>
   <string name="volume_steps_reset">Resetovat</string>
   <!-- DayNight Theme -->
   <string name="night_mode_title">Téma</string>
@@ -79,14 +81,42 @@
   <!-- XenonHD Configurations-->
   <string name="xenonhd_title">Nastavení</string>
   <string name="xenonhd_misc_title">Různé</string>
+  <string name="xenonhd_lockscreen_title">Zamykací obrazovka</string>
+  <string name="xenonhd_ui_title">Uživatelské rozhraní</string>
   <!-- Selinux Switch -->
-  <string name="selinux_switch_title">Možnosti přepínače SELinux</string>
-  <string name="selinux_switch_summary">SELinux je soubor změn na linuxovém jádře a způsob přidělování zdrojů pro danou aplikaci. Změna režimu může způsobit nežádoucí chování. Použití je na vlastní nebezpečí</string>
+  <string name="selinux_switch_title">Upozornění přepnutí SELinux</string>
+  <string name="selinux_switch_summary">SELinux je soubor změn na linuxovém jádře a způsob přidělování zdrojů pro danou aplikaci. Změna režimu může způsobit nežádoucí chování. Je doporučeno mírné nastavení. Použití je na vlastní nebezpečí</string>
   <string name="selinux_title">Selinux režim</string>
   <string name="selinux_permissive_title">Mírné</string>
   <string name="selinux_enforcing_title">Vynucené</string>
   <!-- Recents Membar -->
+  <string name="recents_membar">Ukazatel paměti</string>
   <string name="systemui_recents_mem_display_title">Zobrazit ukazatel paměti</string>
   <string name="systemui_recents_mem_display_summary">Zobrazit ukazatel volné RAM v zobrazení nedávných aplikací</string>
+  <!-- Quick settings tiles columns and rows config -->
+  <string name="qs_layout_category">Rozložení rychlého nastavení dlaždic</string>
+  <string name="qs_rows_portrait_title">Řádky (na výšku)</string>
+  <string name="qs_rows_landscape_title">Řádky (na šířku)</string>
+  <string name="qs_columns_title">Sloupce</string>
+  <!-- Media art -->
+  <string name="media_art_title">Obal alba</string>
+  <string name="media_art_summary">Zobrazit obal alba na zamčené obrazovce</string>
+  <!-- Quick unlock -->
+  <string name="quick_unlock_warning">Upozornění rychlého odemknutí</string>
+  <string name="quick_unlock_warning_summary">Tato funkce obchází důležité bezpečnostní mechanismy a nepodporuje režim více uživatelů. Používáte na vlastní nebezpečí</string>
+  <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+  <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
+  <!-- Three-fingers-swipe to screenshot -->
+  <string name="three_finger_gesture">Přejetím pořídit snímek obrazovky</string>
+  <string name="three_finger_gesture_summary">Snímek obrazovky přejetím tří prstů</string>
+
+  <!-- Long press back to kill configurable timeout -->
+  <!-- Doze pulse options -->
+  <string name="summary_doze_enabled">Zapnuto</string>
+  <string name="summary_doze_disabled">Vypnuto</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <!-- Recents panel settings -->
 
 </resources>

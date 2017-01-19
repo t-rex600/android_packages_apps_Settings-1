@@ -16,17 +16,19 @@
   <!-- About phone screen, XenonHD version -->
   <string name="xenonhd_version">XenonHD Versiyonu</string>
   <string name="xenonhd_version_default">Bilinmeyen</string>
+  <string name="xenonhd_maintainer">Sorumlu</string>
+  <string name="xenonhd_maintainer_default">Bilinmeyen</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Değişiklikler</string>
   <string name="changelog_xenonhd_error">Değişiklik kaydı yüklenemedi</string>
-  <string name="changelog_xenonhd_summary">Değişiklikleri Kontrol Et Ve Geçerli Yap</string>
+  <string name="changelog_xenonhd_summary">Geçerli yapıdaki değişiklikleri kontrol et</string>
   <!-- Density category -->
   <string name="density_category">Yoğunluk Ayarları</string>
   <!-- XenonOTA -->
   <string name="xenonota_title">XenonHD Güncelleştirmeleri</string>
   <string name="xenonota_summary">ROM Güncellemelerini kontrol et</string>
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Gerek Yok, Depolanmış Ayarları Varsayılan Olarak Kaydet.</string>
+  <string name="show_dev_already_enabled">Gerek yok, Geliştirme ayarları varsayılan olarak etkindir</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Telefon Bilgileri</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -46,20 +48,20 @@
   <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
   <!-- Randomize MAC addresses -->
   <string name="randomize_mac_title">Rastgele MAC adresleri</string>
-  <string name="randomize_mac_summary">Cihaz bağlantısı sağlandığında rastgele MAC adresi ata. Rastgele MAC adresi ataması tarama aktif olsa da olmasa da yapılacaktır.</string>
+  <string name="randomize_mac_summary">Cihaz bağlantısı sağlandığında rastgele MAC adresi ata. Rastgele MAC adresi ataması tarama aktif olsa da olmasa da yapılacaktır</string>
   <string name="tethering_no_sim_alert_title">SIM kart yok</string>
-  <string name="tethering_no_sim_card_text">Lütfen diğer cihazlarla USB ile ya da kablosuz ağ paylaşımı yapmak için SIM kartınızı takın.</string>
+  <string name="tethering_no_sim_card_text">Lütfen diğer cihazlarla USB ile ya da kablosuz ağ paylaşımı yapmak için SIM kartınızı takın</string>
   <string name="tether_settings_launch_title">Kablosuz Ağ Paylaşımı</string>
   <string name="wifi_tether_first_use_message">İlk kullanım için Ağ paylaşımını kurun</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Ses Seviyeleri</string>
-  <string name="volume_steps_alarm_title">Alarm ses seviyes</string>
-  <string name="volume_steps_dtmf_title">DTMF ses seviyesi</string>
-  <string name="volume_steps_music_title">Müzik ses seviyesi</string>
-  <string name="volume_steps_notification_title">Bildirim Ses Seviyesi</string>
-  <string name="volume_steps_ring_title">Zil Sesi Seviyesi</string>
-  <string name="volume_steps_system_title">Sistem Ses Seviyesi</string>
-  <string name="volume_steps_voice_call_title">Konuşma Ses Seviyesi</string>
+  <string name="volume_steps_alarm_title">Çalar saat</string>
+  <string name="volume_steps_dtmf_title">DTMF (çevirme)</string>
+  <string name="volume_steps_music_title">Müzik</string>
+  <string name="volume_steps_notification_title">Bildirim</string>
+  <string name="volume_steps_ring_title">Zil sesi</string>
+  <string name="volume_steps_system_title">Sistem</string>
+  <string name="volume_steps_voice_call_title">Sesli arama</string>
   <string name="volume_steps_reset">Sıfırla</string>
   <!-- DayNight Theme -->
   <string name="night_mode_title">Tema</string>
@@ -79,13 +81,40 @@
   <!-- XenonHD Configurations-->
   <string name="xenonhd_title">Yapılandır</string>
   <string name="xenonhd_misc_title">Çeşitler</string>
+  <string name="xenonhd_lockscreen_title">Kilit Ekranı</string>
+  <string name="xenonhd_ui_title">Arayüz</string>
   <!-- Selinux Switch -->
-  <string name="selinux_switch_title">Selinux\'a geçme ayarları</string>
+  <string name="selinux_switch_title">Selinux\'a geçme uyarısı</string>
   <string name="selinux_switch_summary">SELinux kernel modifikasyonları içerir. Bu ayarları değiştirmek istenmeyen sonuçlara yol açabilir. Sorumluluk size aittir</string>
   <string name="selinux_title">SELinux modu</string>
   <string name="selinux_permissive_title">İzinler</string>
   <string name="selinux_enforcing_title">Zorunlu</string>
   <!-- Recents Membar -->
+  <string name="recents_membar">Bellek Çubuğu</string>
   <string name="systemui_recents_mem_display_title">Bellek çubuğunu göster</string>
   <string name="systemui_recents_mem_display_summary">Son uygulamalar ekranında boşta RAM miktarını göster</string>
+  <!-- Quick settings tiles columns and rows config -->
+  <string name="qs_layout_category">Hızlı ayar Tuşları</string>
+  <string name="qs_rows_portrait_title">Satırlar (dikey)</string>
+  <string name="qs_rows_landscape_title">Satırlar (yatay)</string>
+  <string name="qs_columns_title">Sütunlar</string>
+  <!-- Media art -->
+  <string name="media_art_title">Medya kapak resmi</string>
+  <string name="media_art_summary">Kilit ekranında medya albüm kapağını etkinleştir</string>
+  <!-- Quick unlock -->
+  <string name="quick_unlock_warning">Hızlı Ekran Kilidi Açma uyarısı</string>
+  <string name="quick_unlock_warning_summary">Bu özellik önemli güvenlik mekanizmaları atlar ve neredeyse kesin birden çok kullanıcı desteğini kötüye kullanır. Sorumluluk size aittir</string>
+  <string name="unlock_quick_unlock_control_title">Hızlı kilit aç</string>
+  <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
+  <!-- Three-fingers-swipe to screenshot -->
+  <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
+  <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı kaydırın</string>
+  <!-- Long press back to kill configurable timeout -->
+  <!-- Doze pulse options -->
+  <string name="summary_doze_enabled">Etkin</string>
+  <string name="summary_doze_disabled">Devre Dışı</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <!-- Recents panel settings -->
 </resources>

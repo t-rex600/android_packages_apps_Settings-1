@@ -14,8 +14,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">XenonHD Version</string>
   <string name="xenonhd_version_default">Unbekannt</string>
+  <string name="xenonhd_maintainer_default">Unbekannt</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Änderungsprotokoll</string>
   <string name="changelog_xenonhd_error">Änderungsprotokoll konnte nicht geladen werden</string>
@@ -26,7 +26,6 @@
   <string name="xenonota_title">XenonHD-Updates</string>
   <string name="xenonota_summary">ROM-Updates suchen</string>
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Nicht benötigt, da die Entwickleroptionen standardmäßig aktiviert sind.</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Über das Telefon</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -46,20 +45,12 @@
   <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
   <!-- Randomize MAC addresses -->
   <string name="randomize_mac_title">Autorisierte MAC-Adressen</string>
-  <string name="randomize_mac_summary">Weisen Sie zufällige MAC-Adressen zu, wenn Netzwerkgeräte aktiviert sind. MAC-Randomisierung wird während des Scannens verwendet, ob dieses aktiviert ist oder nicht.</string>
   <string name="tethering_no_sim_alert_title">Keine SIM-Karte</string>
-  <string name="tethering_no_sim_card_text">Bitte installieren Sie die SIM-Karte, um Ihre Datenverbindung mit anderen Geräten mit einem mobilen Hotspot oder USB-Tethering für den Internetzugang zu teilen.</string>
   <string name="tether_settings_launch_title">Mobiler Hotspot</string>
   <string name="wifi_tether_first_use_message">Mobiler Hotspot bei der ersten Benutzung einrichten</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Lautstärke-Schritte</string>
-  <string name="volume_steps_alarm_title">Lautstärkestufen: Wecker</string>
-  <string name="volume_steps_dtmf_title">Lautstärkestufen: DTMF</string>
-  <string name="volume_steps_music_title">Lautstärkestufen: Musik</string>
-  <string name="volume_steps_notification_title">Lautstärkestufen: Benachrichtigung</string>
-  <string name="volume_steps_ring_title">Lautstärkestufen: Rufton</string>
-  <string name="volume_steps_system_title">Lautstärkestufen: System</string>
-  <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
+  <string name="volume_steps_music_title">Musik</string>
   <string name="volume_steps_reset">Zurücksetzen</string>
   <!-- DayNight Theme -->
   <string name="night_mode_title">Thema</string>
@@ -80,12 +71,21 @@
   <string name="xenonhd_title">Konfigurationen</string>
   <string name="xenonhd_misc_title">Verschiedenes</string>
   <!-- Selinux Switch -->
-  <string name="selinux_switch_title">SELinux Wechsel-Optionen</string>
-  <string name="selinux_switch_summary">SELinux ist eine Sammlung von Kernel-Modifikationstools und Sicherheitsrichtlinien. Das Ändern dieser Einstellung kann ungewünschte Ereignisse hervorrufen. Benutzung auf eigene Gefahr!</string>
-  <string name="selinux_title">SELinux-Modus</string>
   <string name="selinux_permissive_title">Moderat</string>
   <string name="selinux_enforcing_title">Strikt</string>
   <!-- Recents Membar -->
   <string name="systemui_recents_mem_display_title">Arbeitsspeicher anzeigen</string>
   <string name="systemui_recents_mem_display_summary">Freier RAM-Speicher in den letzten Apps Ansicht anzeigen</string>
+  <!-- Quick settings tiles columns and rows config -->
+  <!-- Media art -->
+  <!-- Quick unlock -->
+  <!-- Three-fingers-swipe to screenshot -->
+  <!-- Long press back to kill configurable timeout -->
+  <!-- Doze pulse options -->
+  <string name="summary_doze_enabled">Aktiviert</string>
+  <string name="summary_doze_disabled">Deaktiviert</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <!-- Recents panel settings -->
 </resources>

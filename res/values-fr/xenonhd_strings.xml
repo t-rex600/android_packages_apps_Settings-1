@@ -16,6 +16,8 @@
   <!-- About phone screen, XenonHD version -->
   <string name="xenonhd_version">Version de XenonHD</string>
   <string name="xenonhd_version_default">Inconnu</string>
+  <string name="xenonhd_maintainer">Mainteneur</string>
+  <string name="xenonhd_maintainer_default">Inconnu</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Note de version</string>
   <string name="changelog_xenonhd_error">Impossible de charger le journal des changements</string>
@@ -26,7 +28,7 @@
   <string name="xenonota_title">Mises à jour de XenonHD</string>
   <string name="xenonota_summary">Rechercher les mises à jour de ROM</string>
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Inutile, les options de développement sont activées par défaut.</string>
+  <string name="show_dev_already_enabled">Inutile, les options de développement sont activées par défaut</string>
   <!-- Phone info shortcut -->
   <string name="device_info_title">Informations sur l\'appareil</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -46,20 +48,20 @@
   <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
   <!-- Randomize MAC addresses -->
   <string name="randomize_mac_title">Alternez les adresses MAC</string>
-  <string name="randomize_mac_summary">Attribuer des adresses MAC aléatoires lorsque des périphériques réseau sont activés.</string>
+  <string name="randomize_mac_summary">Attribuer des adresses MAC aléatoires lorsque des périphériques réseau sont activés</string>
   <string name="tethering_no_sim_alert_title">Pas de carte SIM</string>
-  <string name="tethering_no_sim_card_text">S’il vous plaît, installer une carte SIM afin de partager votre connexion de données avec d’autres appareils.</string>
+  <string name="tethering_no_sim_card_text">S’il vous plaît, installer une carte SIM afin de partager votre connexion de données avec d’autres appareils</string>
   <string name="tether_settings_launch_title">Point d’accès mobile</string>
   <string name="wifi_tether_first_use_message">Mettre en place un hotspot mobile lors de la première utilisation</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Niveaux du volume</string>
-  <string name="volume_steps_alarm_title">Niveaux du volume: Alarme</string>
-  <string name="volume_steps_dtmf_title">Niveaux du volume: DTMF</string>
-  <string name="volume_steps_music_title">Niveaux du volume: Musique</string>
-  <string name="volume_steps_notification_title">Niveaux du volume: Notifcation</string>
-  <string name="volume_steps_ring_title">Niveaux du volume: Sonnerie</string>
-  <string name="volume_steps_system_title">Niveaux du volume: Système</string>
-  <string name="volume_steps_voice_call_title">Niveaux du volume: Appel Vocal</string>
+  <string name="volume_steps_alarm_title">Alarme</string>
+  <string name="volume_steps_dtmf_title">DTMF (numérotation)</string>
+  <string name="volume_steps_music_title">Musique</string>
+  <string name="volume_steps_notification_title">Notification</string>
+  <string name="volume_steps_ring_title">Sonnerie</string>
+  <string name="volume_steps_system_title">Système</string>
+  <string name="volume_steps_voice_call_title">Appel vocal</string>
   <string name="volume_steps_reset">Remise à zéro</string>
   <!-- DayNight Theme -->
   <string name="night_mode_title">Thème</string>
@@ -79,13 +81,41 @@
   <!-- XenonHD Configurations-->
   <string name="xenonhd_title">Configurations</string>
   <string name="xenonhd_misc_title">Réglages divers</string>
+  <string name="xenonhd_lockscreen_title">Écran de verrouillage</string>
+  <string name="xenonhd_ui_title">Interface utilisateur</string>
   <!-- Selinux Switch -->
-  <string name="selinux_switch_title">Option de changement d\'état de Selinux</string>
-  <string name="selinux_switch_summary">SELinux est un ensemble de modifications du noyau et d\'outils espace utilisateur. Le changement de mode peut provoquer des effets indésirables. Utiliser à vos risques et périls</string>
+  <string name="selinux_switch_title">Attention changement de Selinux</string>
+  <string name="selinux_switch_summary">SELinux est un ensemble de modifications de noyau et d’outils de l’espace utilisateur. Changer de mode peut provoquer des effets indésirables. Permissif recommandé. A Utiliser à vos risques et périls</string>
   <string name="selinux_title">Mode de Selinux</string>
   <string name="selinux_permissive_title">Permissif</string>
   <string name="selinux_enforcing_title">Appliqué</string>
   <!-- Recents Membar -->
+  <string name="recents_membar">Barre de mémoire</string>
   <string name="systemui_recents_mem_display_title">Afficher la barre de mémoire</string>
   <string name="systemui_recents_mem_display_summary">Afficher la barre de RAM libre dans le multitâche</string>
+  <!-- Quick settings tiles columns and rows config -->
+  <string name="qs_layout_category">Disposition des tuiles de paramètres rapide</string>
+  <string name="qs_rows_portrait_title">Lignes (portrait)</string>
+  <string name="qs_rows_landscape_title">Lignes (paysage)</string>
+  <string name="qs_columns_title">Colonnes</string>
+  <!-- Media art -->
+  <string name="media_art_title">Pochette de l\'album</string>
+  <string name="media_art_summary">Afficher la pochette d\'album sur l\'écran de verrouillage</string>
+  <!-- Quick unlock -->
+  <string name="quick_unlock_warning">Attention déverrouillage rapide</string>
+  <string name="quick_unlock_warning_summary">Cette fonctionnalité permet de contourner les mécanismes de sécurité important et malmène certainement plusieurs support utilisateurs. Utiliser à vos risques et périls</string>
+  <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+  <string name="unlock_quick_unlock_control_summary">Déverouille automatiquement l\'appareil lorsque le PIN/mot de passe correct est entré</string>
+  <!-- Three-fingers-swipe to screenshot -->
+  <string name="three_finger_gesture">Glisser pour prendre une capture d\'écran</string>
+  <string name="three_finger_gesture_summary">Faites glisser trois doigts pour prendre une capture d’écran</string>
+  <!-- Long press back to kill configurable timeout -->
+  <!-- Doze pulse options -->
+  <string name="summary_doze_enabled">Activé</string>
+  <string name="summary_doze_disabled">Désactivé</string>
+  <string name="doze_pulse_duration_in_summary"></string>
+  <string name="doze_pulse_duration_visible_summary"></string>
+  <string name="doze_pulse_duration_out_summary"></string>
+  <!-- Recents panel settings -->
+
 </resources>
