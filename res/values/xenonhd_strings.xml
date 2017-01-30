@@ -120,16 +120,13 @@
     <string name="systemui_recents_mem_display_title">Show Memory Bar</string>
     <string name="systemui_recents_mem_display_summary">Show free RAM bar in recent apps view</string>
 
-    <!-- Quick settings tiles columns and rows config -->
-    <string name="qs_layout_category">Quick Settings tiles layout</string>
+    <!-- Quick settings config -->
+    <string name="qs_layout_category">Quick Settings options</string>
     <string name="qs_rows_portrait_title">Rows (portrait)</string>
     <string name="qs_rows_landscape_title">Rows (landscape)</string>
     <string name="qs_columns_title">Columns</string>
-
-    <!-- QS tiles category -->
-    <string name="qs_tiles_category">QS tile options</string>
     <string name="qs_easy_toggle_title">Advanced QS Easy Toggle</string>
-    <string name="qs_easy_toggle_summary">Enable one tap action to enable or disable mobile data, wifi, and bluetooth</string>
+    <string name="qs_easy_toggle_summary">Enable one tap action to enable/disable Wi-Fi, Mobile Data and Bluetooth. Long press to see advanced settings</string>
 
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>

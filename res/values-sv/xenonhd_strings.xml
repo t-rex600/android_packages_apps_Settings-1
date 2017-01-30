@@ -58,7 +58,7 @@
   <!-- Selinux Switch -->
   <string name="selinux_permissive_title">Tillåtande</string>
   <!-- Recents Membar -->
-  <!-- Quick settings tiles columns and rows config -->
+  <!-- Quick settings config -->
   <!-- Media art -->
   <!-- Quick unlock -->
   <!-- Three-fingers-swipe to screenshot -->
@@ -66,8 +66,6 @@
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Aktiverad</string>
   <string name="summary_doze_disabled">Inaktiverad</string>
-  <string name="doze_pulse_duration_in_summary"></string>
-  <string name="doze_pulse_duration_visible_summary"></string>
-  <string name="doze_pulse_duration_out_summary"></string>
   <!-- Recents panel settings -->
+  <!-- Dashboard options -->
 </resources>

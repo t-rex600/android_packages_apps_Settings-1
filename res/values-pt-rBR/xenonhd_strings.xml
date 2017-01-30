@@ -14,9 +14,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">Versão XenonHD</string>
+  <string name="xenonhd_version">Versão Da Rom XenonHD</string>
   <string name="xenonhd_version_default">Desconhecido</string>
-  <string name="xenonhd_maintainer">Mantenedor</string>
+  <string name="xenonhd_maintainer">Mantedor</string>
   <string name="xenonhd_maintainer_default">Desconhecido</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Registro de Alterações</string>
@@ -71,7 +71,6 @@
   <string name="screenshot_sound_title">Som de captura de tela</string>
   <string name="screenshot_sound_summary">Tocar efeito de som ao capturar tela</string>
   <!-- Manage applications: show substratum overlays -->
-  <string name="filter_substratum_apps">Substratum overlays</string>
   <string name="menu_show_substratum">Mostrar overlays</string>
   <string name="menu_hide_substratum">Esconder os overlays</string>
   <!-- Manage applications: show substratum icon overlays -->
@@ -84,8 +83,7 @@
   <string name="xenonhd_lockscreen_title">Tela de bloqueio</string>
   <string name="xenonhd_ui_title">Interface</string>
   <!-- Selinux Switch -->
-  <string name="selinux_switch_title">Cuidado do Selinux Switch</string>
-  <string name="selinux_switch_summary">SELinux é um conjunto de modificações do kernel e ferramentas de espaço de usuário. Alterando modos pode causar efeitos indesejados. Permissivo recomendado. Use a seu próprio risco</string>
+  <string name="selinux_switch_title">Cuidado do SELinux Switch</string>
   <string name="selinux_title">Modo do SElinux</string>
   <string name="selinux_permissive_title">Permissivo</string>
   <string name="selinux_enforcing_title">Impondo</string>
@@ -93,8 +91,7 @@
   <string name="recents_membar">Barra de memória</string>
   <string name="systemui_recents_mem_display_title">Mostrar barra de memória</string>
   <string name="systemui_recents_mem_display_summary">Mostrar barra de RAM livre no modo de exibição de apps recentes</string>
-  <!-- Quick settings tiles columns and rows config -->
-  <string name="qs_layout_category">Layout de telhas configurações rápida</string>
+  <!-- Quick settings config -->
   <string name="qs_rows_portrait_title">Linhas (retrato)</string>
   <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
   <string name="qs_columns_title">Colunas</string>
@@ -110,12 +107,43 @@
   <string name="three_finger_gesture">Deslizar para a captura de tela</string>
   <string name="three_finger_gesture_summary">Deslizar 3 dedos para capturar tela</string>
   <!-- Long press back to kill configurable timeout -->
+  <string name="kill_app_longpress_timeout_title">Matar app com botão voltar</string>
+  <string name="timeout_2000">2 segundos (padrão)</string>
+  <string name="timeout_1500">1.5 segundos</string>
+  <string name="timeout_1000">1 segundo</string>
+  <string name="timeout_500">0.5 segundos</string>
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Ativado</string>
   <string name="summary_doze_disabled">Desativado</string>
-  <string name="doze_pulse_duration_in_summary"></string>
-  <string name="doze_pulse_duration_visible_summary"></string>
-  <string name="doze_pulse_duration_out_summary"></string>
+  <string name="doze_overwrite_value_title">Substituir os padrões</string>
+  <string name="doze_overwrite_value_summary">Permite a substituição do valor padrão pela configuração do usuário</string>
+  <string name="doze_pulse_title">Configurações de usuário</string>
+  <string name="doze_pulse_duration_in_title">Desvanecer-se</string>
+  <string name="doze_pulse_duration_visible_title">Duração visível</string>
+  <string name="doze_pulse_duration_out_title">Desaparecer</string>
+  <string name="doze_trigger_pickup_title">Ativação do gesto de pegar o dispositivo</string>
+  <string name="doze_trigger_pickup_summary_on">Pulso será acionado pelo sensor de movimento</string>
+  <string name="doze_trigger_pickup_summary_off">O gesto de pegar o dispositivo não será utilizado como mecanismo de ativação</string>
+  <string name="doze_trigger_notification_title">Acionar com notificações</string>
+  <string name="doze_trigger_notification_summary_on">Pulso será acionado por notificações</string>
+  <string name="doze_trigger_notification_summary_off">Notificações não serão utilizadas como um gatilho para o Doze</string>
+  <string name="doze_brightness_level_title">Nível de brilho</string>
+  <string name="fivehundred_ms_default">500 ms (padrão)</string>
+  <string name="three_second_default">3 s (padrão)</string>
+  <string name="doze_notification_color_invert_title">Notificação invertida</string>
+  <string name="doze_notification_color_invert_summary_off">Notificações do ambiente de exposição não serão invertidas. Use com temas escuros.</string>
+  <string name="doze_notification_color_invert_summary_on">As notificações serão invertidas. Use para tema Branco/Stock theme</string>
+  <string name="ambient_display_show_battery_title">Status da Bateria</string>
+  <string name="ambient_display_show_battery_summary">Mostrar o indicador da bateria durante o pulso</string>
   <!-- Recents panel settings -->
-
+  <string name="show_clear_all_recents_button_title">Mostrar o botão de limpar tudo</string>
+  <string name="show_clear_all_recents_button_summary">Mostrar o botão Limpar tudo ao usar recents</string>
+  <string name="recents_clear_all_location_title">Posição do botão Limpar Tudo</string>
+  <string name="recents_clear_all_location_top_right">Superior Direito</string>
+  <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
+  <string name="recents_clear_all_location_top_center">Centro superior</string>
+  <string name="recents_clear_all_location_bottom_right">Inferior direito</string>
+  <string name="recents_clear_all_location_bottom_left">Inferior esquerdo</string>
+  <string name="recents_clear_all_location_bottom_center">Centro inferior</string>
+  <!-- Dashboard options -->
 </resources>

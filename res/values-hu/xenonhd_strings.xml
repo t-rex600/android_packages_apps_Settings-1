@@ -15,6 +15,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
   <string name="xenonhd_version_default">Ismeretlen</string>
+  <string name="xenonhd_maintainer_default">Ismeretlen</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Változásnapló</string>
   <string name="changelog_xenonhd_error">Nem lehet betölteni a változások listáját</string>
@@ -63,7 +64,7 @@
   <!-- Recents Membar -->
   <string name="systemui_recents_mem_display_title">Memória sáv megjelenítése</string>
   <string name="systemui_recents_mem_display_summary">Szabad RAM sáv megjelenítése a legújabb alkalmazások nézetben</string>
-  <!-- Quick settings tiles columns and rows config -->
+  <!-- Quick settings config -->
   <!-- Media art -->
   <!-- Quick unlock -->
   <!-- Three-fingers-swipe to screenshot -->
@@ -71,8 +72,6 @@
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Engedélyezve</string>
   <string name="summary_doze_disabled">Kikapcsolva</string>
-  <string name="doze_pulse_duration_in_summary"></string>
-  <string name="doze_pulse_duration_visible_summary"></string>
-  <string name="doze_pulse_duration_out_summary"></string>
   <!-- Recents panel settings -->
+  <!-- Dashboard options -->
 </resources>

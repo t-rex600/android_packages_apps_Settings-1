@@ -17,13 +17,11 @@
   <string name="xenonhd_version_default">Onbekend</string>
   <string name="xenonhd_maintainer_default">Onbekend</string>
   <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Changelog</string>
   <string name="changelog_xenonhd_error">Kan changelog niet laden</string>
   <string name="changelog_xenonhd_summary">Controleer wijzigingen in huidige versie</string>
   <!-- Density category -->
   <string name="density_category">Dichtheid opties</string>
   <!-- XenonOTA -->
-  <string name="xenonota_title">XenonHD Updates</string>
   <string name="xenonota_summary">Controleren op ROM updates</string>
   <!-- Dev Options Enabled by Default -->
   <!-- Phone info shortcut -->
@@ -51,7 +49,6 @@
   <!-- Volume Steps -->
   <string name="volume_steps_title">Volume stappen</string>
   <string name="volume_steps_music_title">Muziek</string>
-  <string name="volume_steps_reset">Reset</string>
   <!-- DayNight Theme -->
   <string name="night_mode_title">Thema</string>
   <string name="night_mode_no">Licht</string>
@@ -64,7 +61,7 @@
   <!-- XenonHD Configurations-->
   <!-- Selinux Switch -->
   <!-- Recents Membar -->
-  <!-- Quick settings tiles columns and rows config -->
+  <!-- Quick settings config -->
   <!-- Media art -->
   <!-- Quick unlock -->
   <!-- Three-fingers-swipe to screenshot -->
@@ -72,8 +69,6 @@
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Ingeschakeld</string>
   <string name="summary_doze_disabled">Uitgeschakeld</string>
-  <string name="doze_pulse_duration_in_summary"></string>
-  <string name="doze_pulse_duration_visible_summary"></string>
-  <string name="doze_pulse_duration_out_summary"></string>
   <!-- Recents panel settings -->
+  <!-- Dashboard options -->
 </resources>

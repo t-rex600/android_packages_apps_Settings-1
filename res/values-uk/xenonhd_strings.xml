@@ -38,15 +38,14 @@
   <!-- XenonHD Configurations-->
   <!-- Selinux Switch -->
   <!-- Recents Membar -->
-  <!-- Quick settings tiles columns and rows config -->
+  <!-- Quick settings config -->
   <!-- Media art -->
   <!-- Quick unlock -->
   <!-- Three-fingers-swipe to screenshot -->
   <!-- Long press back to kill configurable timeout -->
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Увімкнено</string>
-  <string name="doze_pulse_duration_in_summary"></string>
-  <string name="doze_pulse_duration_visible_summary"></string>
-  <string name="doze_pulse_duration_out_summary"></string>
+  <string name="summary_doze_disabled">Вимкнено</string>
   <!-- Recents panel settings -->
+  <!-- Dashboard options -->
 </resources>
