@@ -172,6 +172,7 @@
   <string name="dashboard_conditions_title">條件</string>
   <string name="summary_dashboard_conditions_enabled">面板條件已啟用</string>
   <string name="summary_dashboard_conditions_disabled">面板條件已停用</string>
+  <string name="dashboard_columns_title">面板欄位</string>
   <string name="dashboard_columns_summary">變更設定面板中顯示的欄位數</string>
   <string name="dashboard_columns_portrait_title">行 (縱向)</string>
   <string name="dashboard_columns_landscape_title">行 (橫向)</string>

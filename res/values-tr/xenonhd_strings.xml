@@ -85,6 +85,7 @@
   <string name="xenonhd_ui_title">Arayüz</string>
   <!-- Selinux Switch -->
   <string name="selinux_switch_title">Selinux\'a geçme uyarısı</string>
+  <string name="selinux_switch_summary">SELinux bir kernel modifikasyonları ve user-space araçlar kümesidir. Mod değiştirme kök erişimi gerektirir ve istenmeyen etkilere neden olabilir. Permissive mod önerilir. Kullanım riski sizin sorumluluğunuz altındadır</string>
   <string name="selinux_title">SELinux modu</string>
   <string name="selinux_permissive_title">İzinler</string>
   <string name="selinux_enforcing_title">Zorunlu</string>
@@ -93,9 +94,12 @@
   <string name="systemui_recents_mem_display_title">Bellek çubuğunu göster</string>
   <string name="systemui_recents_mem_display_summary">Son uygulamalar ekranında boşta RAM miktarını göster</string>
   <!-- Quick settings config -->
+  <string name="qs_layout_category">Hızlı ayar seçenekleri</string>
   <string name="qs_rows_portrait_title">Satırlar (dikey)</string>
   <string name="qs_rows_landscape_title">Satırlar (yatay)</string>
   <string name="qs_columns_title">Sütunlar</string>
+  <string name="qs_easy_toggle_title">Gelişmiş Hızlı Ayar Kolay Geçiş</string>
+  <string name="qs_easy_toggle_summary">Tek tıkla Wi-Fi, mobil veri ve Bluetooth\'u etkinleştir/devre dışı bırak. Gelişmiş ayarları görmek için uzun basın</string>
   <!-- Media art -->
   <string name="media_art_title">Medya kapak resmi</string>
   <string name="media_art_summary">Kilit ekranında medya albüm kapağını etkinleştir</string>
@@ -129,8 +133,19 @@
   <string name="doze_trigger_notification_summary_on">Yanıp sönme bildirimler tarafından tetiklenecek</string>
   <string name="doze_trigger_notification_summary_off">Bildirimler tetikleyici olarak kullanılmayacak</string>
   <string name="doze_brightness_level_title">Parlaklık Seviyesi</string>
+  <string name="onehundred_ms">100 ms</string>
+  <string name="twofifty_ms">250 ms</string>
   <string name="fivehundred_ms_default">500 ms (varsayılan)</string>
+  <string name="sevenfifty_ms">750 ms</string>
+  <string name="one_second">1 s</string>
+  <string name="onehalf_second">1.5 s</string>
+  <string name="two_second">2 s</string>
+  <string name="twohalf_second">2.5 s</string>
   <string name="three_second_default">3 s (varsayılan)</string>
+  <string name="threehalf_second">3.5 s</string>
+  <string name="four_second">4 s</string>
+  <string name="fourhalf_second">4.5 s</string>
+  <string name="five_second">5 s</string>
   <string name="doze_notification_color_invert_title">Bildirim rengini tersine döndür</string>
   <string name="doze_notification_color_invert_summary_off">Bildirim renkleri tersine çevrilecek. Koyu temalar için kullanın</string>
   <string name="doze_notification_color_invert_summary_on">Bildirim renkleri tersine çevrilmeyek. Açık temalar için kullanın</string>
@@ -147,4 +162,18 @@
   <string name="recents_clear_all_location_bottom_left">Sol alt</string>
   <string name="recents_clear_all_location_bottom_center">Alt orta</string>
   <!-- Dashboard options -->
+  <string name="dashboard_category">Kontrol paneli ayarları</string>
+  <string name="dashboard_suggestions_title">Öneriler</string>
+  <string name="summary_dashboard_suggestions_enabled">Ayarlar menüsü önerileri etkin</string>
+  <string name="summary_dashboard_suggestions_disabled">Ayarlar menüsü önerileri devre dışı</string>
+  <string name="remove_tile_summaries_title">Özetler</string>
+  <string name="remove_tile_summaries_summary_enabled">Ayar menüsü özetleri etkin</string>
+  <string name="remove_tile_summaries_summary_disabled">Ayar menüsü özetleri devre dışı</string>
+  <string name="dashboard_conditions_title">Durumlar</string>
+  <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
+  <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
+  <string name="dashboard_columns_title">Kontrol paneli sütunları</string>
+  <string name="dashboard_columns_summary">Kontrol panelinin sütun sayısını değiştirme</string>
+  <string name="dashboard_columns_portrait_title">Sütunlar (dikey)</string>
+  <string name="dashboard_columns_landscape_title">Sütunlar (yatay)</string>
 </resources>

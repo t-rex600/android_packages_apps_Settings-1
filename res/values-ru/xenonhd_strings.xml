@@ -85,6 +85,7 @@
   <string name="xenonhd_ui_title">Пользовательский интерфейс</string>
   <!-- Selinux Switch -->
   <string name="selinux_switch_title">Предупреждение</string>
+  <string name="selinux_switch_summary">SELinux - это набор модификаций ядра и инструментов пользовательского пространства. Изменение режимов может привести к нежелательным последствиям. Рекомендуется режим \"Только предупреждение\". Используйте на свой риск</string>
   <string name="selinux_title">Режим SELinux</string>
   <string name="selinux_permissive_title">Только предупреждение</string>
   <string name="selinux_enforcing_title">Блокировка</string>
@@ -93,9 +94,12 @@
   <string name="systemui_recents_mem_display_title">Показывать панель использования ОЗУ</string>
   <string name="systemui_recents_mem_display_summary">Показывать панель свободной ОЗУ в меню недавних приложений</string>
   <!-- Quick settings config -->
+  <string name="qs_layout_category">Опции быстрых настроек</string>
   <string name="qs_rows_portrait_title">Строки (портрет)</string>
   <string name="qs_rows_landscape_title">Строки (ландшафт)</string>
   <string name="qs_columns_title">Количество столбцов</string>
+  <string name="qs_easy_toggle_title">Расширенный упрощенный переключатель быстрых настроек</string>
+  <string name="qs_easy_toggle_summary">Включите действие по одиночному нажатию для включения/выключения Wi-Fi, мобильных данных и Bluetooth. Длительное нажатие для просмотра дополнительных настроек</string>
   <!-- Media art -->
   <string name="media_art_title">Обложка альбома</string>
   <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
@@ -158,4 +162,18 @@
   <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
   <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
   <!-- Dashboard options -->
+  <string name="dashboard_category">Опции меню настроек</string>
+  <string name="dashboard_suggestions_title">Подсказки</string>
+  <string name="summary_dashboard_suggestions_enabled">Подсказки меню настроек включены</string>
+  <string name="summary_dashboard_suggestions_disabled">Подсказки меню настроек выключены</string>
+  <string name="remove_tile_summaries_title">Сводки</string>
+  <string name="remove_tile_summaries_summary_enabled">Сводки в меню настроек включены</string>
+  <string name="remove_tile_summaries_summary_disabled">Сводки в меню настроек выключены</string>
+  <string name="dashboard_conditions_title">Уведомления</string>
+  <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
+  <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
+  <string name="dashboard_columns_title">Количество колонок</string>
+  <string name="dashboard_columns_summary">Изменение количества колонок отображаемых на панели настроек</string>
+  <string name="dashboard_columns_portrait_title">Колонки (портрет)</string>
+  <string name="dashboard_columns_landscape_title">Колонки (ландшафт)</string>
 </resources>

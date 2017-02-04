@@ -42,7 +42,10 @@
   <string name="app_notification_sound_timeout_value_none">Aucune restriction</string>
   <string name="app_notification_sound_timeout_value_10_seconds">10 secondes</string>
   <string name="app_notification_sound_timeout_value_30_seconds">30 secondes</string>
+  <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
   <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+  <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+  <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
   <!-- Randomize MAC addresses -->
   <string name="randomize_mac_title">Alternez les adresses MAC</string>
   <string name="randomize_mac_summary">Attribuer des adresses MAC aléatoires lorsque des périphériques réseau sont activés</string>
@@ -55,6 +58,7 @@
   <string name="volume_steps_alarm_title">Alarme</string>
   <string name="volume_steps_dtmf_title">DTMF (numérotation)</string>
   <string name="volume_steps_music_title">Musique</string>
+  <string name="volume_steps_notification_title">Notification</string>
   <string name="volume_steps_ring_title">Sonnerie</string>
   <string name="volume_steps_system_title">Système</string>
   <string name="volume_steps_voice_call_title">Appel vocal</string>
