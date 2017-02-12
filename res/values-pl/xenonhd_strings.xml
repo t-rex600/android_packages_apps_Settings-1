@@ -17,7 +17,7 @@
   <string name="xenonhd_version">Wersja XenonHD</string>
   <string name="xenonhd_version_default">Nieznana</string>
   <string name="xenonhd_maintainer">Opiekun</string>
-  <string name="xenonhd_maintainer_default">Nieznana</string>
+  <string name="xenonhd_maintainer_default">Nieznany</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Lista zmian</string>
   <string name="changelog_xenonhd_error">Nie można wczytać listy zmian</string>

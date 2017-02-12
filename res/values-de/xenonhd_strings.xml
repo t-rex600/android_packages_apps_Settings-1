@@ -14,6 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, XenonHD version -->
+  <string name="xenonhd_version">XenonHD Version</string>
   <string name="xenonhd_version_default">Unbekannt</string>
   <string name="xenonhd_maintainer">Entwickler</string>
   <string name="xenonhd_maintainer_default">Unbekannt</string>
@@ -59,6 +60,7 @@
   <string name="volume_steps_music_title">Musik</string>
   <string name="volume_steps_notification_title">Benachrichtigung</string>
   <string name="volume_steps_ring_title">Klingelton</string>
+  <string name="volume_steps_system_title">System</string>
   <string name="volume_steps_voice_call_title">Sprachanruf</string>
   <string name="volume_steps_reset">Zurücksetzen</string>
   <!-- DayNight Theme -->
@@ -83,6 +85,7 @@
   <string name="xenonhd_ui_title">Benutzeroberfläche</string>
   <!-- Selinux Switch -->
   <string name="selinux_switch_title">SELinux Wechsel-Optionen</string>
+  <string name="selinux_switch_summary">SELinux ist eine Sammlung von Kernel-Modifikationstools und Sicherheitsrichtlinien. Das Ändern dieser Einstellung benötigt Root-Rechte und kann ungewünschte Ereignisse hervorrufen. Benutzung auf eigene Gefahr</string>
   <string name="selinux_title">SELinux-Modus</string>
   <string name="selinux_permissive_title">Moderat</string>
   <string name="selinux_enforcing_title">Strikt</string>
@@ -91,6 +94,7 @@
   <string name="systemui_recents_mem_display_title">Arbeitsspeicher anzeigen</string>
   <string name="systemui_recents_mem_display_summary">Freier RAM-Speicher in den letzten Apps Ansicht anzeigen</string>
   <!-- Quick settings config -->
+  <string name="qs_layout_category">QS-Schaltflächen</string>
   <string name="qs_rows_portrait_title">Zeilen (Hochformat)</string>
   <string name="qs_rows_landscape_title">Zeilen (Querformat)</string>
   <string name="qs_columns_title">Spalten</string>
@@ -125,7 +129,10 @@
   <string name="doze_trigger_notification_summary_on">Pulse wird durch Benachrichtigungen ausgelöst</string>
   <string name="doze_trigger_notification_summary_off">Benachrichtigungen werden nicht als Auslöser verwendet</string>
   <string name="doze_brightness_level_title">Helligkeitsstufe</string>
+  <string name="onehundred_ms">100 ms</string>
+  <string name="twofifty_ms">250 ms</string>
   <string name="fivehundred_ms_default">500 ms (Standard)</string>
+  <string name="sevenfifty_ms">750 ms</string>
   <string name="one_second">1 Sek</string>
   <string name="onehalf_second">1,5 Sek</string>
   <string name="two_second">2 Sek</string>
@@ -142,6 +149,7 @@
   <string name="ambient_display_show_battery_summary">Akkustatus während Puls anzeigen</string>
   <!-- Recents panel settings -->
   <string name="show_clear_all_recents_button_title">Anzeige einer Taste zum Schließen aller geöffneten Apps</string>
+  <string name="show_clear_all_recents_button_summary">Alle-Beenden Taste im Taskmanager Anzeigen</string>
   <string name="recents_clear_all_location_title">Position der Alle-Schließen Taste</string>
   <string name="recents_clear_all_location_top_right">Oben rechts</string>
   <string name="recents_clear_all_location_top_left">Oben links</string>
@@ -150,4 +158,18 @@
   <string name="recents_clear_all_location_bottom_left">Unten links</string>
   <string name="recents_clear_all_location_bottom_center">Unten in der Mitte</string>
   <!-- Dashboard options -->
+  <string name="dashboard_category">Dashboard-Optionen</string>
+  <string name="dashboard_suggestions_title">Vorschläge</string>
+  <string name="summary_dashboard_suggestions_enabled">Dashboard-Vorschläge sind aktiviert</string>
+  <string name="summary_dashboard_suggestions_disabled">Dashboard-Vorschläge sind deaktiviert</string>
+  <string name="remove_tile_summaries_title">Zusammenfassungen</string>
+  <string name="remove_tile_summaries_summary_enabled">Dashboard-Zusammenfassungen sind aktiviert</string>
+  <string name="remove_tile_summaries_summary_disabled">Dashboard-Zusammenfassungen sind deaktiviert</string>
+  <string name="dashboard_conditions_title">Bedingungen</string>
+  <string name="summary_dashboard_conditions_enabled">Dashboard-Bedingungen sind aktiviert</string>
+  <string name="summary_dashboard_conditions_disabled">Dashboard-Bedingungen sind deaktiviert</string>
+  <string name="dashboard_columns_title">Dashboard-Spalten</string>
+  <string name="dashboard_columns_summary">Anzahl der Spalten bearbeiten, die im Dashboard angezeigt werden</string>
+  <string name="dashboard_columns_portrait_title">Spalten (Hochformat)</string>
+  <string name="dashboard_columns_landscape_title">Spalten (Querformat)</string>
 </resources>
