@@ -47,6 +47,8 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
+import android.util.Log;
+
 import java.util.List;
 
 import java.io.File;
@@ -104,9 +106,11 @@ public class MainSettings extends SettingsPreferenceFragment implements
         mSelinux.setOnPreferenceChangeListener(this);
 
  	if (CMDProcessor.runShellCommand("getenforce").getStdout().contains("Enforcing")) {
+            Log.d(TAG, "cmdline: selinux:Enforcing"); 
             mSelinux.setChecked(true);
             mSelinux.setSummary(R.string.selinux_enforcing_title);
         } else {
+            Log.d(TAG, "cmdline: selinux:Permissive");
             mSelinux.setChecked(false);
             mSelinux.setSummary(R.string.selinux_permissive_title);
         }
@@ -202,10 +206,12 @@ public class MainSettings extends SettingsPreferenceFragment implements
      ContentResolver resolver = getActivity().getContentResolver();
             if (preference == mSelinux) {
             if (objValue.toString().equals("true")) {
-                CMDProcessor.runSuCommand("setenforce 1");
+                Log.d(TAG, "setenforce 1");
+                CMDProcessor.runShellCommand("echo 1 > /sys/fs/selinux/enforce");
                 mSelinux.setSummary(R.string.selinux_enforcing_title);
             } else if (objValue.toString().equals("false")) {
-                CMDProcessor.runSuCommand("setenforce 0");
+                Log.d(TAG, "setenforce 0");
+                CMDProcessor.runShellCommand("echo 0 > /sys/fs/selinux/enforce");
                 mSelinux.setSummary(R.string.selinux_permissive_title);
             }
             return true;
